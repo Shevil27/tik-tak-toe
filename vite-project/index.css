@@ -1,0 +1,36 @@
+* {
+  background-color: black;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.board-row {
+  margin: 0px auto;
+  display: flex;
+  height: 50px;
+  width: 154px;
+}
+.cell {
+  width: 50px;
+  border-radius: 8px;
+  background-color: aqua;
+  border: 2px solid white;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.status {
+  margin: 0px auto;
+  display: flex;
+  height: 50px;
+  width: 154px;
+  color: aquamarine;
+  font-size: 20px;
+}
